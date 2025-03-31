@@ -1,0 +1,15 @@
+{
+    "name": "DSA DevContainer",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "formulahendry.code-runner",
+                "ms-vscode.cpptools",
+                "vadimcn.vscode-lldb"
+            ]
+        }
+    }
+}
