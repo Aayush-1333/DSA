@@ -54,7 +54,7 @@ class DynamicArray {
     }
 
     void add(int pos, int x) {
-        if (pos < 0 && pos > size - 1) {
+        if (pos < 0 || pos > size - 1) {
             printf("Invalid Index");
             return;
         }
