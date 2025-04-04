@@ -159,8 +159,10 @@ class SLL {
 
 int main() {
     SLL ll = SLL();
+    
     ll.append(78);
     ll.display();
+
     ll.append(145);
     ll.display();
 
