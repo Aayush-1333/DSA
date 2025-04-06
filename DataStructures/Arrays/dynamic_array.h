@@ -1,0 +1,3 @@
+class DynamicArray;
+
+void display();
